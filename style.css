@@ -1,0 +1,330 @@
+/*Custom style*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+ }
+ html, body {
+  min-height: 100%;
+}
+html * {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+/*----- 1. Reset.css -----*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* --- Common Styles ---*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-size: 14px;
+}
+
+/*----- Helper Classes -----*/
+
+html * {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.nomargin {
+  margin: 0 !important;
+}
+.navbar {
+    font-family: "Montserrat";
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: transparent !important;
+    -webkit-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    border-radius: 0;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.nav-white.effect-main {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.navbar.past-main {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.99) !important;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
+    -moz-box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
+    box-shadow: 0 1px 5px 0 rgba(96, 96, 96, 0.3);
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.hero-home {
+    
+    padding: 200px 0;
+    background-size: cover;
+    background: url(img/Header-bg.jpg) no-repeat 84% 0%;
+        position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.overlay-white {
+    background: linear-gradient(to right, rgba(142, 190, 211, 0.9)-10% , rgba(255, 255, 255, .3) 13%);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.navbar-expand-md .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: column;
+}
+
+.hero-home .intro-block {
+   padding:  50px 185px 50px 0px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.intro-block h3 {
+
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+ 
+    letter-spacing: 1px;
+    color: #084e89;
+    font-weight: 600;
+}
+.intro-block h1.oc {
+    letter-spacing: -1px;
+    font-size: 62px;
+    font-weight: 700;
+    color: #FFFFFF;
+    color: #eb8823;
+    line-height: 1.2;
+  }
+    .intro-block h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #084e89;
+    margin: 10px 0 20px 0;
+}
+.intro-block h1 .Header-head {
+    font-size: 44px;
+    color: #eb8823;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+  
+}
+.intro-block .bc-1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFF;
+    letter-spacing: 1px;
+  
+    color: #084e89;
+    font-weight: 400;
+  
+   
+}
+.intro-block .last {
+    font-size: 44px;
+    letter-spacing: 1px;
+    color: #084e89;
+     margin-bottom: 15px;
+}
+.intro-block h1 .Header-head::before {
+    position: absolute;
+    top: 50px;
+    left: 3px;
+    content: "";
+    width: 115px;
+    height: 3px;
+    background: #eb8823;
+    
+  }
+.navbar-nav h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #084e89;
+    font-weight: bold;
+}
+.navbar-nav h1 {
+    font-size: 48px;
+    color: #eb8823;
+    font-weight: bold;
+}
+.home-registration-form {
+    border-radius: 0;
+    padding: 0px 0px 65px 0px !important;
+    background-color: #E6E3ED !important;
+}
+.registration-form .registration-input-box {
+    border: none;
+    border-radius: 5px;
+    height: 55px;
+    border: 2px solid #AACDDF !important;
+    box-shadow: none !important;
+    width: 70%;
+    margin-left: 65px;
+}
+.header-form {
+    position: relative;
+    background-color: #084D88;
+    padding: 10px 0;
+}
+.registration-form h5 {
+    font-size: 28px;
+    margin: 15px 0;
+    line-height: 1.2;
+    color: #144C87;
+}
+.registration-form h6 {
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0 48px !important;
+    margin-bottom: 20px;
+    color: #013779;
+
+}
+
+.btn-custom{
+  background-color: #eb8823;
+  color:#fff;
+}
+.btn{
+      padding: 12px 34px;
+    font-size: 12px;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    color: #fff;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+    font-weight: 700;
+}
+.registration-form .btn {
+    padding: 14px 34px;
+    font-size: 14px;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    color: #fff;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+    font-weight: 700;
+    width: 70% !important;
+    font-family: 'MontSerrat',sans-serif;
+}
+.registration-form .btn:hover{
+
+  background-color: #fff;
+  color:#eb8823;
+}
+.home-registration-form {
+    border-radius: 0;
+    padding: 0px 0px 65px 0px !important;
+    background-color: #E6E3ED !important;
+    border-bottom: 8px solid #084e89;
+        margin-top: 40px;
+}
